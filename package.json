@@ -1,0 +1,38 @@
+{
+  "name": "knex-typescript-starter-project",
+  "version": "0.1.0",
+  "description": "Simple project set up with Knex and Typescript including migrations.",
+  "main": "dist/index.js",
+  "repository": "git@github.com:mxro/ideas-db.git",
+  "author": "Max Rohde <maxrohde.public@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --watch",
+    "test-ci": "jest",
+    "watch-ts": "tsc -w",
+    "watch-node": "nodemon dist/index.js",
+    "watch": "concurrently \"npm run watch-ts\" \"npm run watch-node\"",
+    "start": "node ./dist/index.js",
+    "lint": "eslint \"{src,test}/**/*.ts\" --quiet --fix"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.1",
+    "concurrently": "^5.1.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "ts-jest": "^25.2.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "kindle-citation-extractor": "^0.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "knex": "^0.20.9",
+    "sqlite3": "^4.1.1",
+    "uuid": "^3.4.0"
+  }
+}

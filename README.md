@@ -1,2 +1,3 @@
-# knex-typescript-starter-project
-Simple project set up with Knex and Typescript including migrations.
+# ideas-db
+
+A database for managing ideas, quotes, citations and other structured knowledge.
