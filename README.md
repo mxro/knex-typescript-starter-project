@@ -1,3 +1,6 @@
-# ideas-db
+# knex-typescript-starter-project
 
-A database for managing ideas, quotes, citations and other structured knowledge.
+Find more information about this project in this blog post:
+
+https://maxrohde.com/2020/02/18/knex-and-typescript-starter-project/
+
