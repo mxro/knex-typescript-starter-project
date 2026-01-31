@@ -30,7 +30,7 @@
     "kindle-citation-extractor": "^0.1.2",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
-    "eslint": "^6.8.0",
+    "eslint": "^9.26.0",
     "knex": "^2.4.0",
     "sqlite3": "^4.1.1",
     "uuid": "^3.4.0"
